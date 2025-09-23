@@ -1,0 +1,28 @@
+.carousel-nav {
+  transform: translateY(-50%);
+  background: rgba(116, 108, 108, 0.5);
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s ease;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.carousel-nav:hover {
+  background: rgba(116, 108, 108, 0.8);
+}
+
+.carousel-prev {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
